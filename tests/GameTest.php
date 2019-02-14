@@ -1,11 +1,11 @@
 <?php
-
+use PHPUnit\Framework\TestCase;
 require __DIR__ . "/../src/Entity/Game.php";
 require __DIR__ . "/../src/Entity/Rating.php";
 require __DIR__ . "/../src/Entity/User.php";
 
 
-class GameTest extends PHPUnit_Framework_TestCase {
+class GameTest extends TestCase {
 
     public function testImage_WithNull_ReturnsPlaceholder(){
 
